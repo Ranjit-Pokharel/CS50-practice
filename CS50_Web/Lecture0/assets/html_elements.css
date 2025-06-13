@@ -1,0 +1,45 @@
+@media (min-width:600px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: blue;
+    }
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+
+td, th {
+    padding: 4px;
+    text-align: center;
+}
+
+ul li {
+    color: blue;
+}
+
+a[href="google.com"] {
+    color: red;
+}
+
+button {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+    color: red;
+}
